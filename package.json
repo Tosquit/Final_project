@@ -11,8 +11,13 @@
   },
   "dependencies": {
     "@astrojs/react": "^2.2.0",
-    "astro": "^2.4.1",
+    "astro": "^2.5.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "description": "```\r npm create astro@latest -- --template basics\r ```",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
