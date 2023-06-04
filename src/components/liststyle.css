@@ -77,3 +77,8 @@
   position: relative;
   margin-left: 5%;
 }
+body {
+  background-image: url('https://fondosmil.com/fondo/17559.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
