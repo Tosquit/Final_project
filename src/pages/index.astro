@@ -2,16 +2,11 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import FooterSimple from '../layouts/footer.astro';
-import HeaderSimple from '../layouts/Header.astro';
-import Monalisa from './LaMonaLisa.astro';
+import Header from '../layouts/Header.astro';
 ---
-<head>
-    <meta charset="UTF-8"/>
-    <link rel="stylesheet" href="global.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-</head>
-<HeaderSimple />
+
 <Layout title="Welcome to Final_project.">
+	<Header />	
 	<main>
 		<ul role="list" class="link-card-grid">
 			<Card
@@ -31,6 +26,6 @@ import Monalisa from './LaMonaLisa.astro';
 			/>
 		</ul>
 	</main>
-</Layout>
 <FooterSimple />
+</Layout>
 
