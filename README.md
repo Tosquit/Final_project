@@ -1,17 +1,9 @@
-# Astro Starter Kit: Basics
+## 📗 My Final Project with astro 📗
+<img src="https://github-readme-svg.vercel.app/api/v1/svg/road" alt="My endless road" />
 
-```
-npm create astro@latest -- --template basics
-```
+[![**Open Vercel**](https://raw.githubusercontent.com/abumalick/powered-by-vercel/master/powered-by-vercel.svg)](https://final-projectdavidtosca.vercel.app/)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
-
+[![Open in Github CodeSpaces](https://github.com/codespaces/badge.svg)](https://tosquit-literate-waffle-65jxp7gvrrwf5pv5.github.dev/)
 
 ## 🚀 Project Structure
 
@@ -20,23 +12,26 @@ Inside of your Astro project, you'll see the following folders and files:
 ```
 /
 ├── public/
+│   └── Guernica.jpg
+│   └── MonaLisa.jpg
+│   └── NitEstrellada.jpg
+│   └── Back.jpg
 │   └── favicon.svg
+│   └── global.css
 ├── src/
 │   ├── components/
-│   │   └── Card.astro
+│   │   └── GeneralPage.astro
+│   │   └── script.js
 │   ├── layouts/
-│   │   └── Layout.astro
+│   │   └── Header.astro
+│   │   └── Footer.astro
 │   └── pages/
 │       └── index.astro
+│       └── Guernica.astro
+│       └── LaMonaLisa.astro
+│       └── LaNocheEstrellada.astro
 └── package.json
 ```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
@@ -50,6 +45,5 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## 👀 Author: David Tosca
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
