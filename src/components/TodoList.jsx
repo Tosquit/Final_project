@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import "./liststyle.css";
-import '../public/global.css';
+import "../../public/global.css";
 
 const fakeTodos = [
   { what: "Mirar cuadro Guernica", done: false },

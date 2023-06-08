@@ -24,12 +24,13 @@ main {
   max-width: 60ch;
 }
 .text-gradient {
-  background-image: var(--accent-gradient);
+  background-image: linear-gradient(to right, #8a63d2, #c471ed);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 400%;
   background-position: 0%;
 }
+
 .instructions {
   line-height: 1.6;
   margin: 1rem 0;

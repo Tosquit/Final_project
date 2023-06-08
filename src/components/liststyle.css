@@ -4,11 +4,13 @@
 }
 .todo-list .todo-item {
   padding: .5em;
-  border: 1px solid lightgrey;
+  border: 0.5px solid lightgrey;
   border-top: none;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
+  background-color: rgba(136, 135, 135, 0.521);
 }
 .todo-list .todo-item .what.done {
   text-decoration: line-through;
@@ -21,7 +23,10 @@
   cursor: pointer;
 }
 .todo-list .todo-item .what {
-  margin-left: .6em;
+  margin-left: .20em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .insert{
   display: inline-block;
@@ -73,7 +78,7 @@
   color: #FFFFFF;
   border-radius: 6px;
   transition: background-color 0.3s ease;
-  left: 25%;
+  left: 35%;
   position: relative;
   margin-left: 5%;
 }
