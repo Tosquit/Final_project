@@ -11,7 +11,7 @@ const fakeTodos = [
 
 const TodoItem = ({ todo, onClick }) => (
   <li className="todo-item" onClick={onClick}>
-    <input type="checkbox" checked={todo.done} readOnly />
+    
     <div className={"what" + (todo.done ? " done" : "")}>{todo.what}</div>
   </li>
 );
@@ -59,7 +59,7 @@ function TodoList() {
   return (
     <div className="todo-list">
       <form onSubmit={addTodo}>
-        <input className="addtext" type="text" ref={inputRef} />
+        <input className="addtext" type="text" ref={inputRef}  maxLength={40}/>
         <button className="insert">Inserta tus Todo</button>
       </form>
       <ul>
