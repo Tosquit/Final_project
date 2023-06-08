@@ -1,5 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import "./liststyle.css";
+import '../public/global.css';
 
 const fakeTodos = [
   { what: "Mirar cuadro Guernica", done: false },
@@ -20,7 +21,6 @@ function TodoList() {
   const [todos, setTodos] = useState([]);
 
   useEffect(() => {
-    // Recuperar los todos del localStorage cuando se carga el componente
     const savedTodos = localStorage.getItem("todos");
     if (savedTodos) {
       setTodos(JSON.parse(savedTodos));
@@ -30,7 +30,6 @@ function TodoList() {
   }, []);
 
   useEffect(() => {
-    // Guardar los todos en el localStorage cuando cambian
     localStorage.setItem("todos", JSON.stringify(todos));
   }, [todos]);
 
