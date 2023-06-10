@@ -62,7 +62,7 @@
   border: 2px solid #4CAF50;
   border-radius: 6px;
   transition: border-color 0.3s ease;
-  left: 42%;
+  left: 40%;
   position:relative;
 }
 .addtext:focus {
